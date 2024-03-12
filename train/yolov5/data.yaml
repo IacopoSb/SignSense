@@ -1,0 +1,40 @@
+names:
+- a
+- b
+- c
+- d
+- del
+- e
+- f
+- g
+- h
+- i
+- j
+- k
+- l
+- m
+- n
+- o
+- p
+- q
+- r
+- reset
+- s
+- space
+- t
+- u
+- v
+- w
+- x
+- y
+- z
+nc: 29
+roboflow:
+  license: CC BY 4.0
+  project: signsense-gnn0l
+  url: https://universe.roboflow.com/signsense-0gsgr/signsense-gnn0l/dataset/1
+  version: 1
+  workspace: signsense-0gsgr
+test: ./SignSense-1/test/images
+train: ./SignSense-1/train/images
+val: ./SignSense-1/valid/images
