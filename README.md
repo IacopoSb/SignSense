@@ -10,12 +10,7 @@ Il cuore del sistema è una rete neurale implementata con TensorFlow e OpenCV, p
 
 Il risultato della traduzione viene visualizzato su un display LCD 16x2, rendendo l'output immediatamente accessibile all'utente. Questa soluzione compatta e portatile è ideale per situazioni in cui uno schermo esterno non è pratico, come in ambienti pubblici o in luoghi con restrizioni di spazio.
 
-Sono possibili due tipi di traduzione:
-
-- traduzione "letterale": utilizza l'alfabeto LIS italiano e permette di assemblare parole e frasi (sono supportate le lettere dell'alfabeto latino di base (alfabeto italiano esteso a 26 lettere) e dei simboli aggiuntivi per 'spazio', 'elimina ultimo carattere' e 'reset';
-- traduzione "parola": utilizza un vocabolario di *xxx* termini base del LIS italiano, le parole vengono visualizzate singolarmente quando riconosciute.
-
-I tipi di traduzione sono intercambiabili attraverso un pulsante presente sul dispositivo.
+La traduzione avviene "letteralmente": utilizzando l'alfabeto LIS italiano permette di assemblare parole e frasi (sono supportate le lettere dell'alfabeto latino di base (alfabeto italiano esteso a 26 lettere) e dei simboli aggiuntivi per 'spazio', 'elimina ultimo carattere' e 'reset'.
 
 ## Descrizione delle cartelle
 
@@ -28,9 +23,8 @@ I tipi di traduzione sono intercambiabili attraverso un pulsante presente sul di
 
 - Raspberry Pi 4
 - HD44780 1602 Modulo LCD
-- Resistenza 330 ohm
+- Resistenza 2Kohm
 - Webcam USB
-- Pulsante 3P con interfaccia S V G
 
 ### Diagramma dei PIN di collegamento al Raspberry Pi
 
@@ -45,4 +39,3 @@ I tipi di traduzione sono intercambiabili attraverso un pulsante presente sul di
 
 ## Estensione ad applicazione Android
 
-*Work in progress*
