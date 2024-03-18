@@ -1,0 +1,5 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+
+no: 29
+names: ['a', 'b', 'c', 'd', 'del', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 'reset', 's', 'sapce', 't', 'u', 'v', 'w', 'x', 'y', 'z']
