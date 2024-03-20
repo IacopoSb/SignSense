@@ -76,6 +76,7 @@
     </LinearLayout>
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -109,8 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:visibility="visible">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="1"
+                android:text="4"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
@@ -159,27 +159,28 @@
         android:background="@android:color/darker_gray" />
 
     <!-- TODO(b/112541284): Unhide when new NNAPI delegate is used. -->
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
 
-        <ListView
-            android:id="@+id/device_list"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/api"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="API"
+            android:textColor="@android:color/black" />
 
-        <ListView
-            android:id="@+id/model_list"
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/api_info_switch"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:gravity="right"
+            android:text="TFLITE"
+            android:textColor="@android:color/black" />
     </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/darker_gray" />
-
 </LinearLayout>
