@@ -70,6 +70,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private Detector detector;
 
   private long lastProcessingTimeMs;
+  private double fps;
   private Bitmap rgbFrameBitmap = null;
   private Bitmap croppedBitmap = null;
   private Bitmap cropCopyBitmap = null;
@@ -183,6 +184,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
             final long startTime = SystemClock.uptimeMillis();
             final List<Detector.Recognition> results = detector.recognizeImage(croppedBitmap);
             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
+            fps = (1.0 / lastProcessingTimeMs) * 1000;
 
             cropCopyBitmap = Bitmap.createBitmap(croppedBitmap);
             final Canvas canvas = new Canvas(cropCopyBitmap);
@@ -225,6 +227,8 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                     showFrameInfo(previewWidth + "x" + previewHeight);
                     showCropInfo(cropCopyBitmap.getWidth() + "x" + cropCopyBitmap.getHeight());
                     showInference(lastProcessingTimeMs + "ms");
+                    int fpsInt = (int)fps;
+                    showFPS(fpsInt + "FPS");
                   }
                 });
           }
