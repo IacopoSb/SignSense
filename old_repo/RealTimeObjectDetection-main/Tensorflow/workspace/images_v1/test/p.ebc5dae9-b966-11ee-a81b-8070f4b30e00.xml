@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella (2)</folder>
+	<filename>p.ebc5dae9-b966-11ee-a81b-8070f4b30e00.jpg</filename>
+	<path>C:\Users\crist\Desktop\Nuova cartella (2)\p.ebc5dae9-b966-11ee-a81b-8070f4b30e00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>p</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>590</ymin>
+			<xmax>834</xmax>
+			<ymax>1008</ymax>
+		</bndbox>
+	</object>
+</annotation>

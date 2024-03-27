@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella (2)</folder>
+	<filename>a.f0208dd0-b95d-11ee-9596-8070f4b30e00.jpg</filename>
+	<path>C:\Users\crist\Desktop\Nuova cartella (2)\a.f0208dd0-b95d-11ee-9596-8070f4b30e00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>a</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>498</ymin>
+			<xmax>726</xmax>
+			<ymax>910</ymax>
+		</bndbox>
+	</object>
+</annotation>

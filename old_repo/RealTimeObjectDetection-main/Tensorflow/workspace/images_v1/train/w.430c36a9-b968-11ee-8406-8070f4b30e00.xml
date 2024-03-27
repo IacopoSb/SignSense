@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella (2)</folder>
+	<filename>w.430c36a9-b968-11ee-8406-8070f4b30e00.jpg</filename>
+	<path>C:\Users\crist\Desktop\Nuova cartella (2)\w.430c36a9-b968-11ee-8406-8070f4b30e00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>w</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>303</ymin>
+			<xmax>694</xmax>
+			<ymax>833</ymax>
+		</bndbox>
+	</object>
+</annotation>

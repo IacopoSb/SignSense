@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella (2)</folder>
+	<filename>n.8334c369-b966-11ee-94e3-8070f4b30e00.jpg</filename>
+	<path>C:\Users\crist\Desktop\Nuova cartella (2)\n.8334c369-b966-11ee-94e3-8070f4b30e00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>n</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>163</xmin>
+			<ymin>415</ymin>
+			<xmax>485</xmax>
+			<ymax>885</ymax>
+		</bndbox>
+	</object>
+</annotation>

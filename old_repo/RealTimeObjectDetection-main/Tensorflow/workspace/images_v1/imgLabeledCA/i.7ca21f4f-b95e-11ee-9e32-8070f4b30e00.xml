@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella (2)</folder>
+	<filename>i.7ca21f4f-b95e-11ee-9e32-8070f4b30e00.jpg</filename>
+	<path>C:\Users\crist\Desktop\Nuova cartella (2)\i.7ca21f4f-b95e-11ee-9e32-8070f4b30e00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>i</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>320</xmin>
+			<ymin>261</ymin>
+			<xmax>726</xmax>
+			<ymax>897</ymax>
+		</bndbox>
+	</object>
+</annotation>

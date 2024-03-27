@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imgfiltered</folder>
+	<filename>space.2cfde529-b887-11ee-8332-f4b301028eaf.jpg</filename>
+	<path>C:\Users\Iacopo\Desktop\imgfiltered\space.2cfde529-b887-11ee-8332-f4b301028eaf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>space</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>42</xmin>
+			<ymin>374</ymin>
+			<xmax>462</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

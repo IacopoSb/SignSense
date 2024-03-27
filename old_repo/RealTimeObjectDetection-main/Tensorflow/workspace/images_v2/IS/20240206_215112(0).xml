@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nuova cartella</folder>
+	<filename>20240206_215112(0).jpg</filename>
+	<path>C:\Users\Iacopo\Desktop\Nuova cartella\20240206_215112(0).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>w</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>336</xmin>
+			<ymin>190</ymin>
+			<xmax>676</xmax>
+			<ymax>662</ymax>
+		</bndbox>
+	</object>
+</annotation>

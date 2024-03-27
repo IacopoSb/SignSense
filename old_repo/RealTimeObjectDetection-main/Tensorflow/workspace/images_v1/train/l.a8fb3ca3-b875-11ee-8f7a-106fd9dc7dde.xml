@@ -1,0 +1,26 @@
+<annotation>
+	<folder>all_Images</folder>
+	<filename>l.a8fb3ca3-b875-11ee-8f7a-106fd9dc7dde.jpg</filename>
+	<path>C:\Users\utente\Documents\Ing informatica\Magistrale\1 anno 1 semestre\Sistemi Digitali\Modulo 2\SignSense\RealTimeObjectDetection-main\Tensorflow\workspace\images\collectedimages\all_Images\l.a8fb3ca3-b875-11ee-8f7a-106fd9dc7dde.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>l</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>368</xmin>
+			<ymin>231</ymin>
+			<xmax>511</xmax>
+			<ymax>420</ymax>
+		</bndbox>
+	</object>
+</annotation>

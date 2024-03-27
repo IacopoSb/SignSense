@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imgfiltered</folder>
+	<filename>l.3d396d1b-b885-11ee-8e70-f4b301028eaf.jpg</filename>
+	<path>C:\Users\Iacopo\Desktop\imgfiltered\l.3d396d1b-b885-11ee-8e70-f4b301028eaf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>l</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>217</ymin>
+			<xmax>252</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

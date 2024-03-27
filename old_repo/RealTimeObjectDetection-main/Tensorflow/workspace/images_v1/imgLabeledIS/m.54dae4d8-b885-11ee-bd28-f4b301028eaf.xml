@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imgfiltered</folder>
+	<filename>m.54dae4d8-b885-11ee-bd28-f4b301028eaf.jpg</filename>
+	<path>C:\Users\Iacopo\Desktop\imgfiltered\m.54dae4d8-b885-11ee-bd28-f4b301028eaf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>m</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>231</ymin>
+			<xmax>279</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+</annotation>

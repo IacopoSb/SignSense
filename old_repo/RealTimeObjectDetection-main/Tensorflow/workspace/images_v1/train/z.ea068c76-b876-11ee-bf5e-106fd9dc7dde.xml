@@ -1,0 +1,26 @@
+<annotation>
+	<folder>all_Images</folder>
+	<filename>z.ea068c76-b876-11ee-bf5e-106fd9dc7dde.jpg</filename>
+	<path>C:\Users\utente\Documents\Ing informatica\Magistrale\1 anno 1 semestre\Sistemi Digitali\Modulo 2\SignSense\RealTimeObjectDetection-main\Tensorflow\workspace\images\collectedimages\all_Images\z.ea068c76-b876-11ee-bf5e-106fd9dc7dde.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>z</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>220</xmin>
+			<ymin>223</ymin>
+			<xmax>402</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+</annotation>

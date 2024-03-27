@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imgLabeledPC_v2</folder>
+	<filename>b.6b105d51-c537-11ee-b127-106fd9dc7dde.jpg</filename>
+	<path>C:\Users\utente\Documents\Ing informatica\Magistrale\1 anno 1 semestre\Sistemi Digitali\Modulo 2\SignSense\RealTimeObjectDetection-main\Tensorflow\workspace\images\imgLabeledPC_v2\b.6b105d51-c537-11ee-b127-106fd9dc7dde.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>b</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>319</xmin>
+			<ymin>83</ymin>
+			<xmax>506</xmax>
+			<ymax>445</ymax>
+		</bndbox>
+	</object>
+</annotation>

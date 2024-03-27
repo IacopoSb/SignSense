@@ -1,0 +1,15 @@
+# Ignora tutti i file e le sottodirectory
+community
+docs
+official
+orbit
+research
+tensorflow_models
+AUTHORS
+CODE_OF_CONDUCT.md
+CODEOWNERS
+CONTRIBUTING.md
+ISSUES.md
+LICENSE
+README.md
+SECURITY.md
